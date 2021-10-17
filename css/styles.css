@@ -1,0 +1,188 @@
+.logo {
+  margin: 0% 3% 1% 0%;
+}
+
+#header-img {
+  width: 50%;
+}
+
+#nav-bar {
+  width:60%;
+}
+
+#nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#nav-bar a:hover {
+  background-color: #F2FFFD;
+  color: black;
+}
+
+
+header {
+  align-items: center;
+  justify-content: sticky;
+  display: flex;
+  height: 5rem;
+  background-color: #D15E5E;
+}
+
+body {
+  font-family: roboto;
+  text-decoration: none;
+  background-color: #E29A9A;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#Description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+
+#form {
+  align-items: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 2% 7%;
+}
+
+#form input[type=email] {
+  margin-top: 2rem;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
+
+
+
+.container {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 4rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+
+.icon {
+  grid-column: 1/2;
+  align-self: center;
+  justify-self: flex-end;
+  margin-right: 5rem;
+  color: #fff;
+}
+
+.Description {
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: flex-start;
+  color: #ffffff;
+}
+
+#how-it-works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+iframe {
+  width: 50%;
+}
+
+#form {
+  width: 50%;
+}
+
+#pricing {
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  display: flex;
+}
+
+.product {
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 0rem 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  border: 4px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Box {
+  background-color: black;
+  width: 101%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer {
+  margin-top: 2rem;
+  width: 100%;
+  height: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D15E5E;
+  align-self: center;
+  display: flex;
+}
+
+footer ul {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer span {
+  letter-spacing: 1px;
+  align-self: center;
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 14rem;
+  }
